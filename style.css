@@ -1,7 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+body {
+  margin: auto;
+  padding: 0 25px 0 25px;
+  background-color: lightblue;
+}
+
 #heading {
-  background: rgba(0, 0, 255, .5);
-  padding: 10px 0px 10px 0px;
+  background: #0f0982;
+  color: white;
+  padding: 0px;
+  margin-top: 0;
   text-align: center;
+}
+
+#logo-title {
+  white-space: nowrap;
 }
 
 #content {
