@@ -6,16 +6,42 @@
 
 body {
   margin: auto;
-  padding: 0 25px 0 25px;
   background-color: lightblue;
 }
 
-#heading {
+#header {
   background: #0f0982;
   color: white;
   padding: 0px;
-  margin-top: 0;
+  margin: 0px;
   text-align: center;
+}
+
+.icon {
+  font-size: 44px;
+  color: white;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #0f0982;
+  color: white;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+#footer-links {
+  width: 10%;
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+#footer-link-wrapper {
+  width: 20%;
+  display: inline-flex;
 }
 
 #logo-title {
@@ -44,6 +70,7 @@ button {
 }
 
 #content {
+  position: relative;
   border: none;
   padding: 20px;
   text-align: center;
